@@ -18,10 +18,6 @@ describe DockingStation do
   it { is_expected.to respond_to(:dock).with(1).argument }
 
   it { is_expected.to respond_to(:bikes) }
-<<<<<<< HEAD
-
-=======
->>>>>>> 1b1b60f7f0a69637472ce1768349de8121091399
 
   it "docks bikes" do
     bike = Bike.new
